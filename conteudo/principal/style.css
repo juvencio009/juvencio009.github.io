@@ -1,0 +1,173 @@
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    body{
+      width:100%;
+      height: 100dvh;
+      background:rgb(40, 42, 54) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 1s;
+    
+    }
+    
+    header{
+      width: 100%;
+      height: 80px;
+      box-shadow: 4px 3px 2px ;
+      background:rgb(33, 34, 44);
+    }
+    
+    nav{
+        text-align: center;
+        padding:14px;
+     
+    }
+    nav a {   
+     text-decoration:none;
+     font-size: 14px;
+     color:rgb(95,114 ,165 );
+     margin:15px ;
+     padding:12px ;
+     border:none;
+     border-radius: 18px;
+    }
+    nav a:hover {
+        font-size: 16px;
+        background: rgb(52, 55,70);
+        color:rgb(254, 255, 255);
+    }
+    
+     nav #cont{
+      text-decoration:none;
+     font-size: 14px;
+     color: rgb(250, 251, 251);
+     margin:15px ;
+     background: rgb(52, 55,70);
+     border:none;
+     border-radius: 18px;
+    }
+    
+    nav #cont:hover{ font-size: 16px;   background:rgb(33, 34, 44);  border: 3px solid rgb(52, 55,70); color:rgb(251, 252, 254); } .logo{ width: 45%;height: 100px; border-radius: 0 0 45px;  } h1{margin-top: 8px; font-size: 80PX;  margin-left: 10px; font-family: sans-serif;color: rgb(251, 252, 253);
+    }  p{ font-size: 15px;color: blue; } .box{
+      position: relative; width: 100%; height: 100dvh;text-align: center;width:40% ; width: 100%; height:1300px;}
+
+      /*    Modo light and dark    */
+      .geral{ 
+        width: 100px;
+        height: 60px;
+       display: flex;
+       position: relative;
+
+       justify-content: left;
+       align-items: left;
+       flex-direction: column;
+       margin-left: End;
+      /* border: 1px solid grey;*/
+       box-shadow: 2px 3px 8px grey;
+       margin-left: 80%;
+       margin-top: -98px;
+      }
+      .button{
+        margin-left:20%;
+        margin-top:4px;
+      }
+
+
+
+      h2 {
+        margin-left:20%;
+        margin-top: 0px;
+      }
+       
+      
+
+
+
+
+
+
+
+      .button{
+        position: relative;
+        width: 55px;
+        height: 23px;
+        border-radius: 25px;
+        box-shadow: 0 0 2.5px 0 grey;
+        cursor: pointer;
+        border: 2px solid grey;
+        background: rgb(212, 209, 209);
+        }
+        .button.dark{
+            background:rgb(73, 73, 74) ;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .button.dark .ball{
+            left:30px;
+            background-color: rgb(5, 0, 0);
+        }
+        body.dark{
+            background: rgb(239, 234, 234);
+        }
+       body h2{
+         color: white;
+
+        }
+        body.dark h2{
+          color: rgb(6, 0, 0);
+ 
+         }
+
+
+        body.dark h1{
+          color: rgb(2, 18, 51);
+        }
+            body.dark header{
+           background:rgb(15, 84, 173) ;
+
+            }
+
+            body.dark header nav a ,nav #cont{
+            color:rgb(230, 226, 226) ;
+            }
+body.dark header nav a:hover{
+  background: rgba(185, 187, 200,0.4);
+        color:rgb(254, 255, 255);
+    
+}
+body.dark nav #cont{
+  color: #fff;
+  background: rgba(185, 187, 200,0.5);
+}
+body.dark nav #cont:hover{
+  background: none;
+  border:2px solid rgba(185, 187, 200,0.5)
+}
+
+
+
+
+
+
+
+
+        .ball{
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 20px;
+           height: 20px;
+           background: white;
+           border-radius: 50%;
+           transition: left 1s;
+            }
+        
+        .ball-move{
+          left: calc(100% -20px);
+        }

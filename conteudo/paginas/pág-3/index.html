@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login js</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="logar">
+     <h2>Login</h2>
+     <input type="text" id="login" name="login" placeholder="Login">
+     <input type="password" name="senha" id="senha" placeholder="Palavra-passe">
+     <input type="submit" id="senha" onclick="dados();return false">
+
+    </form>
+    <script>
+  function dados() {
+      var login = document.getElementById("login").value;
+      var senha = document.getElementById("senha").value;
+ 
+      if (login== "calo" && senha == "calo") {
+       alert("confirmado");
+       location.href="C:\Users\admin\Desktop\html\meus sites\site 1\conteudo\paginas\pág-2\index.html";
+      }
+      else{
+        alert("nome ou senha incorrecta");
+
+      }
+
+        }
+    
+
+
+
+    </script>
+</body>
+</html>

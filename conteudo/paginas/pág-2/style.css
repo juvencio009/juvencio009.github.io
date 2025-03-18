@@ -1,0 +1,55 @@
+*,*::after,*::before{
+  margin: 0;
+padding: 0;
+border:0;
+font-size: 100%;
+vertical-align: baseline;
+text-decoration: none;
+}
+body{
+  display:flex;
+  height: 100vh;
+  background: rgb(50, 52, 56);
+}
+
+.conteiner{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 4rem;
+padding: 1rem;
+}
+
+.title{
+  padding:0.8rem;
+  border-radius: 6px;
+  background: #a5a7c4;
+  text-align: center;
+  color: rgb(255,216,98);
+  font-weight: 900;
+  font-size: 28px;
+  box-shadow:3px 4px rgba(0, 0, 0,0.16 ) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;}
+
+
+.inputrange{
+width: 300px;
+padding: 1rem;
+display: flex;
+gap:0.8rem;
+background: #a8abca;
+border-radius: 4px;
+box-shadow:2px rgba(3, 3, 3, 0.16);
+background-color: rgb(252, 254, 255) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+.inputrange input{
+    width: calc(80% -20px);
+    height: 10px;
+    appearance: none;
+    outline: none;
+    border-radius: 5px;
+     
+    
+}
